@@ -1,0 +1,21 @@
+{
+  "name": "vue3-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "SET NODE_OPTIONS=--openssl-legacy-provider && webpack serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.7.0"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^4.5.0",
+    "webpack": "^5.5.1",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
