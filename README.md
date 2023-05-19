@@ -9,6 +9,12 @@
 5. 运行npm install jquery -S命令，安装JQuery
 6. 运行E6模块化的方式导入JQury,实现列表各行变色效果
 
+```javascript
+npm install --registry=http://registry.npm.taobao.org
+```
+
+
+
 ## webpack使用
 
 ### webpack基本使用
@@ -202,7 +208,7 @@ loader 加载器的作用: 协助 webpack 打包处理特定的文件模块。�
 
 css-loader 可以打包处理.css 相关的文件
 
- less-loader 可以打包处理 .less 相关的文件
+less-loader 可以打包处理 .less 相关的文件
 
 babel-loader 可以打包处理 webpack 无法处理的高级JS 语法
 
