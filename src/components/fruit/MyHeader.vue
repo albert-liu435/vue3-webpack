@@ -1,5 +1,6 @@
 <template>
-  <div class="header-container" :style="{ backgroundColor: bgcolor, color: color }">
+  <div class="header-container"
+       :style="{ backgroundColor: bgcolor, color: color }">
     {{title || 'Header 组件'}}
   </div>
 </template>
