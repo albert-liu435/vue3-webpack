@@ -1,21 +1,18 @@
 {
   "name": "vue3-webpack",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "dev": "SET NODE_OPTIONS=--openssl-legacy-provider && webpack serve"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "jquery": "^3.7.0"
+    "vue": "^3.2.47"
   },
   "devDependencies": {
-    "html-webpack-plugin": "^4.5.0",
-    "webpack": "^5.5.1",
-    "webpack-cli": "^4.10.0",
-    "webpack-dev-server": "^3.11.0"
+    "@vitejs/plugin-vue": "^4.1.0",
+    "vite": "^4.3.2"
   }
 }
